@@ -5,6 +5,7 @@
 }
 
 #toollist1{
+  display: none;
   border: 1px solid rgb(57, 239, 191);
   height: 3.5vh;
   background-color: #0c417e00;
@@ -170,7 +171,7 @@
   width: 7;
   height: 4.6vh;
   border-radius: 0.6vw;
-  top: 91vh;
+  top: 83vh;
   left: 5vw;
 }
 
