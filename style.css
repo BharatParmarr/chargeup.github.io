@@ -150,6 +150,10 @@
   overflow-y: scroll;
   z-index: 2;
 }
+
+
+
+
 #indicaters1::-webkit-scrollbar {
   display: none;
 }
@@ -212,6 +216,12 @@
 
 @media  only screen and (max-width: 600px) {
 
+  .map_choose_s{
+    height: 5vh;
+  }
+
+  
+
   .button_text{
     display: none;
   }
@@ -221,23 +231,23 @@
     width: 2vw;
   }
   .dropdown-menu > li{
-      width: 8vw;
-      
+      width: 11vw;
+      height: 5vh;
 
   }
   .dropdown-menu.show{
 
    min-width: auto;
-   padding-left: 4px;
-  width: 10vw; 
+   padding-left: 0.4vw;
+    width: 12vw; 
   }
 
   .dropdown-toggle{
-    width: 10vw;
+    width: 12.9vw;
   }
 
   #indicaters1{
-  
+   
     position: fixed;
     width: 100vw;
     height: 46vh;

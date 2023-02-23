@@ -66,7 +66,7 @@ function init(){
 
 
     //layer switure logic
-    const baseLayerElements = document.querySelectorAll('.map_choose > input[type=radio]');
+    const baseLayerElements = document.querySelectorAll('.map_choose_s > input[type=radio]');
     
     for(let baseLayerElement of baseLayerElements){
       baseLayerElement.addEventListener('change', function(){
@@ -208,6 +208,8 @@ map.addControl(
 
 
   // vector feature pop up logic
+
+
   // const overlayercontainer1 = document.querySelector('#indicaters1');
   // const overlayLayer = new ol.Overlay({
   //   element: overlayercontainer1
@@ -231,7 +233,6 @@ map.addControl(
 
       // overlayLayer.setPosition(clickcoordinate)
       show_side_manu()
-      
       overlatFeaturename.innerHTML = 'Type of building:- ' + clickFeatureName + "<br>";
       overlatFeatureinfo.innerHTML = 'Room Avaiblity:- ' + clickfeatureinfo + "<br>";
       overlatFeatureparking.innerHTML = 'Parrking Available:- ' + clickfeatureParking + "<br>";
@@ -331,7 +332,7 @@ function show_side_manu(){
 
 // code for pop up in movile
 
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("indicaters1");
 
 // Get the button that opens the modal
 
