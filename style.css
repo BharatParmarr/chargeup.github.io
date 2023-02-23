@@ -220,11 +220,21 @@
   .map_choose_s{
     height: 5vh;
   }
-
   
 
   .button_text{
     display: none;
+  }
+
+
+  .locate {
+    position: absolute;
+    z-index: 8;
+    top: 6em;
+    left: .5em;
+    top: 85vh;
+    left: 85vw;
+  
   }
 
   .grid_1{
