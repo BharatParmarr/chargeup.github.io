@@ -217,17 +217,23 @@
   }
 
   .grid_1{
-    left: 88vw;
+    left: 86vw;
     width: 2vw;
   }
   .dropdown-menu > li{
-      width: 4vw;
+      width: 8vw;
       
 
   }
   .dropdown-menu.show{
-   min-width: 8.5vw;
-   padding-left: 3px;
+
+   min-width: auto;
+   padding-left: 4px;
+  width: 10vw; 
+  }
+
+  .dropdown-toggle{
+    width: 10vw;
   }
 
   #indicaters1{
@@ -299,7 +305,7 @@
   }
 
   .book_charging_button{
-    top: 91vh;
+    top: 87vh;
     left: 35vw;
   }
 
