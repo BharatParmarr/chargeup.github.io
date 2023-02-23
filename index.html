@@ -26,10 +26,11 @@
       </header>
       
       
-  
-     <div id="indicaters" style="display: none;"></div>
-      <div id="indicaters1" class="shadow-lg p-3 mb-5 bg-white rounded">
-        <button type="button" class="btn-close" onclick="hide_side_manu()"></button> ECSGIS
+  <div id="indicaters" style="display: none;"></div>
+      <button id="myBtn" style="position: absolute; z-index: 0;" > .</button>
+     
+      <div id="indicaters1" class="shadow-lg p-3 mb-5 bg-white rounded modal-content">
+        <button type="button" class="btn-close close" onclick="hide_side_manu()"> </button> ECSGIS
       <span class="overlay_text" id="featurename"> Type of building:-</span>
       <span class="overlay_text" id="feature_add_info">Room Avaiblity:- </span>
       <span class="overlay_text" id="featureparking">Parrking Available:- </span>
@@ -41,6 +42,36 @@
     
 
     </div>
+
+
+    <!-- <div id="myModal" class="modal"  style="z-index: 7;"> 
+
+
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times; <== </span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the Modal Body</p>
+          <p>Some other text...</p>
+        </div>
+        <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div>
+      </div>
+    
+    </div> -->
+
+
+
+
+
+
+
+
+
       <div id="toolkit"> </div>
 
       <div class="grid-container">
@@ -49,7 +80,7 @@
           <div class="sidebar dropdown">
             <!-- <h2 style="color: aqua;">Select A map</h2> -->
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              view map
+              <span class='button_text' >view map</span> 
             </button>
             <ul class="dropdown-menu">
             <li><span class="map_choose_s a1 span_map_choose dropdown-item"><input class="map_choose" type="radio" name="baselayerbutton" value="OSMStanderd" checked id=""><label for="baselayerbutton1"> street</label></span></li> 

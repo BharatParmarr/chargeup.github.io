@@ -231,6 +231,7 @@ map.addControl(
 
       // overlayLayer.setPosition(clickcoordinate)
       show_side_manu()
+      
       overlatFeaturename.innerHTML = 'Type of building:- ' + clickFeatureName + "<br>";
       overlatFeatureinfo.innerHTML = 'Room Avaiblity:- ' + clickfeatureinfo + "<br>";
       overlatFeatureparking.innerHTML = 'Parrking Available:- ' + clickfeatureParking + "<br>";
@@ -317,11 +318,42 @@ function hide_side_manu(){
   manu.style.display = "none";
 }
 
+var btn = document.getElementById("myBtn");
 function show_side_manu(){
   let manu = document.getElementById('indicaters1')
   manu.style.display = "block";
+  btn.click()
 }
 
+
+
+
+
+// code for pop up in movile
+
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close");
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
 
 
